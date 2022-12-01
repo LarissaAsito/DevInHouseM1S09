@@ -44,7 +44,22 @@
         </div>
       </div>
       <button type="reset" class="btn btn-secondary me-2">Limpar</button>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <!--<button type="submit" class="btn btn-primary me-2">Enviar</button>-->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sucesso">
+        Enviar
+      </button>
     </form>
+  </div>
+</div>
+<div class="modal fade" id="sucesso" tabindex="-1" aria-labelledby="titulo" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Formulário enviado com sucesso!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
   </div>
 </div>
