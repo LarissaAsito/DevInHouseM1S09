@@ -1,8 +1,8 @@
-<div class="card" style="width: 18rem;">
-    <img src="https://br.web.img3.acsta.net/c_162_216/pictures/18/01/05/14/41/2809300.jpg" class="card-img-top" alt="Sam">
+<div class="card" style="width: 18rem;" >
+    <img [src]="personagem.imagem" class="card-img-top" alt="Sam">
     <div class="card-body">
-      <h5 class="card-title">Sam Gardner</h5>
-      <h6 class="card-title">Keir Gilchrist</h6>
-      <p class="card-text">Em Atypical, Sam Gardner (Keir Gilchrist) é um jovem autista de 18 anos que está em busca de sua própria independência – começando por arrumar uma namorada.</p>
+      <h5 class="card-title">{{ personagem.nome }}</h5>
+      <h6 class="card-title">{{ personagem.nomeAtor }}</h6>
+      <p class="card-text">{{ personagem.descricao}}</p>
     </div>
   </div>
