@@ -14,4 +14,7 @@ export class AppComponent {
     descricao:
       'Em Atypical, Sam Gardner (Keir Gilchrist) é um jovem autista de 18 anos que está em busca de sua própria independência – começando por arrumar uma namorada.',
   };
+  consoleLogInput(event: any) {
+    console.log(event);
+  }
 }

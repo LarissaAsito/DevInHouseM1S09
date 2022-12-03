@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <input class="form-control me-2" [(ngModel)]="search" name="search" placeholder="Search"
+            aria-label="Search" (keyup)="this.actionOutput.emit(search)">
+        </div>
+    </div>
+</div>
